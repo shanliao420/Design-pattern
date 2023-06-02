@@ -8,7 +8,7 @@ package work.tangthinker.strategy;
  */
 public class Context {
 
-    private Strategy strategy;
+    private final Strategy strategy;
 
     public Context(Strategy strategy){
         this.strategy = strategy;
